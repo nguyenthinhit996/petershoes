@@ -1,0 +1,51 @@
+/* Put scss common into here */
+
+* {
+  box-sizing: border-box;
+}
+
+body.app-generic,
+body.app-generic > * {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-size: $main-text-fontsize;
+  color: $main-text-color;
+  background-color: $main-background-color;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .main-page-container {
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .main-page-container {
+    background-color: rgb(205, 223, 43);
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .main-page-container {
+    background-color: rgb(48, 210, 24);
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .main-page-container {
+    background-color: rgb(20, 233, 190);
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  .main-page-container {
+    background-color: rgb(200, 13, 207);
+  }
+}

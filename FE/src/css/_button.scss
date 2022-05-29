@@ -1,0 +1,26 @@
+/* button */
+button, 
+button.btn.btn-outline-light,
+button.btn.btn-outline-primary,
+button.btn.btn-outline-secondary,
+button.btn.btn-outline-success,
+button.btn.btn-outline-danger,
+button.btn.btn-outline-warning,
+button.btn.btn-outline-info,
+button.btn.btn-outline-dark,
+button.btn.btn-primary,
+button.btn.btn-secondary,
+button.btn.btn-success,
+button.btn.btn-warning,
+button.btn.btn-info,
+button.btn.btn-dark,
+button.btn.btn-light,
+button.btn.btn-link
+{
+    background-color: $main-button-background-color;
+    color: $main-button-text-color;
+
+    &:hover {
+        font-size: 1.1rem;
+    }
+}
